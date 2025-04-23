@@ -1,6 +1,8 @@
 # Binary Search Algorithm
 
 
+print("\n\nProgram Created by Kieran\n\n")
+
 def Binary_Search(array, target):
     start_index = 0
     end_index = len(array) -1

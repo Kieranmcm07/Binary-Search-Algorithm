@@ -1,5 +1,8 @@
 # Bubble Sort Algorithm
 
+print("\n\nProgram Created by Kieran\n\n")
+
+
 # Array to be sorted
 item_array = [5, 3, 8, 4, 2, 8, 1, 7, 6, 9, 7, 8]
 
@@ -14,7 +17,6 @@ def Conditional_Bubble_Sort(array):
         for i in range(outer):
             if array[i] > array[i + 1]:
                 swaps = True
-                
                 temp = array[i]
                 array[i] = array[i + 1]
                 array[i + 1] = temp
